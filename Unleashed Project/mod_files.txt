@@ -1,3 +1,8 @@
+add disk/bb/SonicActionCommonHud.ar.00
+add disk/bb/SonicActionCommonHud.ar.01
+add disk/bb/SonicActionCommonHud.ar.02
+add disk/bb/SonicActionCommonHud.ar.03
+add disk/bb/SonicActionCommonHud.arl
 add Packed/euc200/euc200.ar.00
 add Packed/euc200/euc200.ar.01
 add Packed/euc200/euc200.ar.02
