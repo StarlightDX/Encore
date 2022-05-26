@@ -1,7 +1,7 @@
-## Unleashed Project: Encore V1.2.3
-- Made changes to Dragon Dusk designed to better fit the scenery 
+## Unleashed Project: Encore V1.2.5
+- Fixed all visual bugs present in Jungle Joyride
 
-## Unleashed Project: Encore V1.2.2
+## Unleashed Project: Encore V1.2.2 / V1.2.3 / V1.2.4 
 - Made changes to Dragon Dusk designed to better fit the scenery 
 
 ## Unleashed Project: Encore V1.2.1
