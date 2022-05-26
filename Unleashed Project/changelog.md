@@ -1,3 +1,6 @@
+## Unleashed Project: Encore V1.2.1
+- Fixed various issues
+
 ## Unleashed Project: Encore V1.2
 - Added boost bar by NextinHKRY
 
