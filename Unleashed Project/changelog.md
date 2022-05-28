@@ -1,5 +1,5 @@
 ## Unleashed Project: Encore V1.2.6
-- Added missing life icon
+- Restored the original HUD concept
 
 ## Unleashed Project: Encore V1.2.5
 - Fixed all visual bugs present in Jungle Joyride, Download full update from GameBanana (https://gamebanana.com/mods/378951)
