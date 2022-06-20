@@ -1,0 +1,1170 @@
+[
+  {
+    "Archive": "ActD_Africa",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_Beach",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_China",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_EU",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_EggmanLand",
+    "UnknownByte_1": 2
+  },
+  {
+    "Archive": "ActD_Mission_Africa",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_Mission_Beach",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_Mission_China",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_Mission_EU",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_Mission_Mykonos",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_Mission_NY",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_Mission_Petra",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_Mission_Snow",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_MykonosAct1",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_MykonosAct2",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_NY",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_Petra",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_Snow",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubAfrica_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubAfrica_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubAfrica_03",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubBeach_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubBeach_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubBeach_03",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubBeach_04",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubChina_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubChina_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubChina_03",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubChina_04",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubEU_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubEU_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubEU_03",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubEU_04",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubMykonos_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubMykonos_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubNY_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubNY_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubPetra_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubPetra_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubPetra_03",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubSnow_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubSnow_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_SubSnow_03",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_AfricaEvil",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_BeachEvil",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_ChinaEvil",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_EUEvil",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_EggmanLand",
+    "UnknownByte_1": 2
+  },
+  {
+    "Archive": "ActN_MissionEU_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_MissionEU_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_MissionEU_03",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_Mission_Africa",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_Mission_Beach",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_Mission_China",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_Mission_Mykonos",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_Mission_NY",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_Mission_Petra",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_Mission_Snow",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_MykonosEvil",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_NYEvil",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_PetraEvil",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SnowEvil",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubAfrica_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubAfrica_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubAfrica_03",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubBeach_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubChina_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubChina_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubEU_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubMykonos_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubNY_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubPetra_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubPetra_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubSnow_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_SubSnow_02",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActN_Test_Dummy",
+    "UnknownByte_1": 2
+  },
+  {
+    "Archive": "Act_EggmanLand",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActionCommon",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActionCommon_EggmanLand",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "Application",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "AutoSave",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "BossCommon",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "BossDarkGaia1_1Air",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "BossDarkGaia1_1Run",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "BossDarkGaia1_2Run",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "BossDarkGaia1_3Run",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "BossDarkGaiaMoray",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "BossEggBeetle",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "BossEggDragoon",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "BossEggLancer",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "BossEggRayBird",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "BossFinalDarkGaia",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "BossHydra",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "BossPetra",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "BossPhoenix",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "CmnActD_Terrain_Africa",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActD_Terrain_Beach",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActD_Terrain_China",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActD_Terrain_EU",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActD_Terrain_Mykonos",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActD_Terrain_NY",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActD_Terrain_Petra",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActD_Terrain_Snow",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActN_Terrain_Africa",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActN_Terrain_Beach",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActN_Terrain_China",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActN_Terrain_EU",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActN_Terrain_Mykonos",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActN_Terrain_NY",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActN_Terrain_Petra",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnActN_Terrain_Snow",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnAct_Beach",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnAct_China",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnAct_EU",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnAct_EggmanLand",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnAct_NY",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnAfrica",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnBeach",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnChina",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnEU",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnEggmanLand",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnEnemyNight",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnEnemy_EFighterGN",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnEnemy_EggFighterEquipments",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnEnemy_SonicEnemyESpinner",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnMykonos",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnNY",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnPetra",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnSnow",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "CmnTown_Africa",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "CmnTown_China",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "CmnTown_EuropeanCity",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "CmnTown_Mykonos",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "CmnTown_NYCity",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "CmnTown_PetraCapital",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "CmnTown_Snow",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "CmnTown_SouthEastAsia",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Cmn_BossDarkGaia",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "EggFighterEquipments",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Event_M2_01_professor_room_new",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Event_M4_01_egb_hideout",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Event_M6_01_temple",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Event_M8_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Event_M8_02_egbHall",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Event_M8_03",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Event_M8_16_myk",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Event_afr_hideout",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Event_egb_hidout_exterior",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Event_temple",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilActionCommon",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilActionCommonGeneral",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilActionCommon_Africa",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilActionCommon_Beach",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilActionCommon_China",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilActionCommon_EU",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilActionCommon_EggmanLand",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilActionCommon_Mykonos",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilActionCommon_NY",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilActionCommon_Petra",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilActionCommon_Snow",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilCommon",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "EvilCommonGeneral",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "EvilEnemyBigMother",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemyChibiFighter",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemyEThunderBall",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemyEggElement",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemyEggFighter",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemyFloat",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemyFlower",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemyKillerBee",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemyMaster",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemyMoleel",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemyNightmareR",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemyReckless",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemySpooky",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilEnemyTitan",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "EvilSonic",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ExStageTails1",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ExStageTails2",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ExStageTails_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Install",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "Loading",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "MainMenu",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "SelectStage",
+    "UnknownByte_1": 2
+  },
+  {
+    "Archive": "Sonic",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicActionCommon",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicActionCommonGeneral",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicActionCommon_Africa",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicActionCommon_Beach",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicActionCommon_China",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicActionCommon_EU",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicActionCommon_EggmanLand",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicActionCommon_Mykonos",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicActionCommon_NY",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicActionCommon_Petra",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicActionCommon_Snow",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicCommon",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "SonicCommonGeneral",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "SonicEnemyEAirCannon",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicEnemyEAirChaser",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicEnemyEBigChaser",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicEnemyEElement",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicEnemyEFighterG",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicEnemyEFighterK",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicEnemyEFighterN",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicEnemyEFighterS",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicEnemyEFighterT",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "SonicEnemyEMoleCannon",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicEnemyEShackle",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicEnemyEShooter",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicEnemyESpinner",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SonicEnemyEThunderBall",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "StaffRoll",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SuperSonic",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "SystemCommon",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "SystemCommonCore",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "TestEvilEnemy",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "TestEvilLargeFloor",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "TestEvilPathFinding_01",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Title",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "TitleE3",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "TitleModel",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Africa",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_AfricaETF",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_AfricaETF_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_AfricaETF_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Africa_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Africa_Dispel",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Africa_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_China",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_ChinaETF",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_ChinaETF_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_ChinaETF_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_China_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_China_Dispel",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_China_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_EULabo",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_EULabo_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_EULabo_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_EggManBase",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_EggManBase_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_EuropeanCity",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_EuropeanCityETF",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_EuropeanCityETF_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_EuropeanCityETF_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_EuropeanCity_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_EuropeanCity_Dispel",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_EuropeanCity_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Labo_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Mykonos",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_MykonosETF",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_MykonosETF_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_MykonosETF_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Mykonos_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Mykonos_Dispel",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Mykonos_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_NYCity",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_NYCityETF",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_NYCityETF_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_NYCityETF_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_NYCity_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_NYCity_Dispel",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_NYCity_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_PetraCapital",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_PetraCapitalETF",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_PetraCapitalETF_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_PetraCapitalETF_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_PetraCapital_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_PetraCapital_Dispel",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_PetraCapital_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_PetraLabo",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_PetraLabo_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_PetraLabo_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Snow",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_SnowETF",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_SnowETF_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_SnowETF_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Snow_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Snow_Dispel",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_Snow_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_SouthEastAsia",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_SouthEastAsiaETF",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_SouthEastAsiaETF_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_SouthEastAsiaETF_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_SouthEastAsia_Common",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_SouthEastAsia_Dispel",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "Town_SouthEastAsia_Night",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "WorldMap",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "shader",
+    "UnknownByte_1": 1
+  },
+  {
+    "Archive": "ActD_CSC",
+    "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_CTE",
+    "UnknownByte_1": 3
+  }
+]
