@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Archive Tree for adding new characters. Instructions are included at the bottom of this file. Make sure the main ArchiveTree is set to include this by adding the following line in it: <Include>CharacterArchiveTree.xml</Include>-->
+<ArchiveTree>
+	<Param> <!--Param is a shortcut for adding data. By doing %KeyName%, you'll automatically fill that in with every Value assigned to that Key.-->
+		<Name>Character</Name>
+		<Key>Character</Key>
+		<Value>Blaze</Value>
+	</Param>
+  <Node>
+	<Param>Character</Param> 
+	<Archive>Sonic</Archive> <!--Inherits some Sonic data to fix explosions. This can also be done by inheriting SystemCommon, but the load times are about identical.-->
+	<Node> <!--These additional nodes allow the data to use the Character param and inherit data from the Sonic archive-->
+		<Archive>ActD_Char_%Character%</Archive> <!--Automatically creates archive slots, replacing Character with each Value.-->
+			<Node> <!--Nodes are once again used so that everything below gets the character data attached to it-->
+				<Archive>%Character%_EU</Archive>
+				<Append>ActD_EU</Append> <!--Attaches data from an archive. This allows you to load Rooftop Run 1's terrain without making a new Packed entry.-->
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_EU1</Archive>
+				<Append>ActD_SubEU_01</Append> <!--Same as above but has to be done for each substage as well-->
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_EU2</Archive>
+				<Append>ActD_SubEU_02</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_EU3</Archive>
+				<Append>ActD_SubEU_03</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_EU4</Archive>
+				<Append>ActD_SubEU_04</Append>
+			</Node>
+			
+			<Node>
+				<Archive>%Character%_China</Archive>
+				<Append>ActD_China</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_China1</Archive>
+				<Append>ActD_SubChina_01</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_China2</Archive>
+				<Append>ActD_SubChina_02</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_China3</Archive>
+				<Append>ActD_SubChina_03</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_China4</Archive>
+				<Append>ActD_SubChina_04</Append>
+			</Node>
+			
+			<Node>
+				<Archive>%Character%_Petra</Archive>
+				<Append>ActD_Petra</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Petra1</Archive>
+				<Append>ActD_SubPetra_01</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Petra2</Archive>
+				<Append>ActD_SubPetra_02</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Petra3</Archive>
+				<Append>ActD_SubPetra_03</Append>
+			</Node>
+			
+			<Node>
+				<Archive>%Character%_Mykonos</Archive>
+				<Append>ActD_Mykonos</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Mykonos1</Archive>
+				<Append>ActD_MykonosAct1</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Mykonos2</Archive>
+				<Append>ActD_SubMykonos_01</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Mykonos3</Archive>
+				<Append>ActD_SubMykonos_02</Append>
+			</Node>
+			
+			<Node>
+				<Archive>%Character%_NY</Archive>
+				<Append>ActD_NY</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_NY1</Archive>
+				<Append>ActD_SubNY_01</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_NY2</Archive>
+				<Append>ActD_SubNY_02</Append>
+			</Node>
+			
+			<Node>
+				<Archive>%Character%_Snow</Archive>
+				<Append>ActD_Snow</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Snow1</Archive>
+				<Append>ActD_SubSnow_01</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Snow2</Archive>
+				<Append>ActD_SubSnow_02</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Snow3</Archive>
+				<Append>ActD_SubSnow_03</Append>
+			</Node>
+			
+			<Node>
+				<Archive>%Character%_Beach</Archive>
+				<Append>ActD_Beach</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Beach1</Archive>
+				<Append>ActD_SubBeach_01</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Beach2</Archive>
+				<Append>ActD_SubBeach_02</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Beach3</Archive>
+				<Append>ActD_SubBeach_03</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Beach4</Archive>
+				<Append>ActD_SubBeach_04</Append>
+			</Node>
+			
+			<Node>
+				<Archive>%Character%_Africa</Archive>
+				<Append>ActD_Africa</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Africa1</Archive>
+				<Append>ActD_SubAfrica_01</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Africa2</Archive>
+				<Append>ActD_SubAfrica_02</Append>
+			</Node>
+			<Node>
+				<Archive>Sub_%Character%_Africa3</Archive>
+				<Append>ActD_SubAfrica_03</Append>
+			</Node>
+			
+	</Node>
+  </Node> 
+</ArchiveTree>
+<!--Instructions: 
+To create a slot, just add a new Value with the name of your character. Make sure your archives follow this naming scheme (using Shadow as an example. Replace Shadow with the name of your character, of course):
+
+ActD_Char_Shadow (Add this to the arcinfo file with the Unknown Byte set to 1. You can include all of Shadow's data inside a regular AR, no need for a #AR)
+
+Shadow_EU (You do not need to add these to the arcinfo file. They do not need to contain any additional character data, so just throw a dummy file like DoNothing.seq.xml from #Application inside them)
+Shadow_China
+Shadow_Petra
+Shadow_Mykonos
+Shadow_NY
+Shadow_Snow
+Shadow_Beach
+Shadow_Africa
+
+Sub_Shadow_EU1
+Sub_Shadow_EU2
+Sub_Shadow_EU3
+Sub_Shadow_EU4
+
+Sub_Shadow_China1
+Sub_Shadow_China2
+Sub_Shadow_China3
+Sub_Shadow_China4
+
+Sub_Shadow_Petra1
+Sub_Shadow_Petra2
+Sub_Shadow_Petra3
+
+Sub_Shadow_Mykonos1
+Sub_Shadow_Mykonos2
+Sub_Shadow_Mykonos3
+
+Sub_Shadow_NY1
+Sub_Shadow_NY2
+
+Sub_Shadow_Snow1
+Sub_Shadow_Snow2
+Sub_Shadow_Snow3
+
+Sub_Shadow_Beach1
+Sub_Shadow_Beach2
+Sub_Shadow_Beach3
+Sub_Shadow_Beach4
+
+Sub_Shadow_Africa1
+Sub_Shadow_Africa2
+Sub_Shadow_Africa3 
+
+Note: If you want to use a custom voice csb, go into the main archive tree, navigate to the "Voice" section and comment out the Sonic archive. This will cause your custom csb to be used, provided it's in with the rest of your character data. If you don't want Sonic to remain mute, add his voice CSB to one of his regular files, e.g. SonicActionCommon-->
