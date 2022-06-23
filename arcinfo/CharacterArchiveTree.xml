@@ -5,6 +5,7 @@
 		<Name>Character</Name>
 		<Key>Character</Key>
 		<Value>Blaze</Value>
+		<Value>Shadow</Value>
 	</Param>
   <Node>
 	<Param>Character</Param> 
@@ -161,7 +162,7 @@
 <!--Instructions: 
 To create a slot, just add a new Value with the name of your character. Make sure your archives follow this naming scheme (using Shadow as an example. Replace Shadow with the name of your character, of course):
 
-ActD_Char_Shadow (Add this to the arcinfo file with the Unknown Byte set to 1. You can include all of Shadow's data inside a regular AR, no need for a #AR)
+ActD_Char_"NameOfCharacter" (Add this to the arcinfo file with the Unknown Byte set to 1. You can include all of Shadow's data inside a regular AR, no need for a #AR)
 
 Shadow_EU (You do not need to add these to the arcinfo file. They do not need to contain any additional character data, so just throw a dummy file like DoNothing.seq.xml from #Application inside them)
 Shadow_China

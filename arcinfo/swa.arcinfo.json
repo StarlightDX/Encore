@@ -1166,5 +1166,9 @@
   {
     "Archive": "ActD_CTE",
     "UnknownByte_1": 3
+  },
+  {
+    "Archive": "ActD_Char_Blaze",
+    "UnknownByte_1": 1
   }
 ]

@@ -414,7 +414,7 @@
 	</Language>
 	<!-- Voice -->
 	<Voice>
-		<Archive>Sonic</Archive>
+	<!--	<Archive>Sonic</Archive>  -->
 		<Archive>SystemCommon</Archive>
 		<Archive>ExStageTails_Common</Archive>
 		<Archive>EvilSonic</Archive>
@@ -1015,4 +1015,5 @@
 	</Node>
 	<!-- 独立 -->
 	<Include>OtherArchiveTree.xml</Include>
+	<Include>CharacterArchiveTree.xml</Include>
 </ArchiveTree>
