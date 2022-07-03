@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroSequence>
+  <SequenceUnit>
+    <type>SetFlag</type>
+    <param>
+	  <FlagName>iFlag_LoadingDisplayType</FlagName>
+	  <FlagValue>3</FlagValue>
+    </param>
+  </SequenceUnit>
+  <SequenceUnit>
+    <type>ChangeStage</type>
+    <param>
+      <StageType>Action</StageType>
+      <CountryName>Africa</CountryName>
+	<Switch>
+	  <Case flag="bFlag_isMarza" operation="E" value="true">
+		<ArchiveName>Sub_Marza_Africa1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubAfrica_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="bFlag_isShadow" operation="E" value="true">
+		<ArchiveName>Sub_Shadow_Africa1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubAfrica_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="bFlag_isBlaze" operation="E" value="true">
+		<ArchiveName>Sub_Blaze_Africa1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubAfrica_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="bFlag_isUnwiished" operation="E" value="true">
+		<ArchiveName>Sub_Unwiished_Africa1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubAfrica_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Default>
+		<ArchiveName>ActD_SubAfrica_01</ArchiveName>
+	  </Default>
+	</Switch>
+      <SettingName>Stage</SettingName>
+      <IsEvil>false</IsEvil>
+      <AppendArchive>SonicActionCommon_Africa</AppendArchive>
+      <Switch>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_HRD">
+		  <OverWriteSetData>
+			<Name>Medal</Name>
+			<FileName>dummy.set.xml</FileName>
+		  </OverWriteSetData>
+		  <OverWriteSetData>
+			<Name>Media</Name>
+			<FileName>dummy.set.xml</FileName>
+		  </OverWriteSetData>
+		  <LoadingTextGroupID>Afr_D2_HRD_10</LoadingTextGroupID>
+		  <!-- ここからはスコア情報 -->
+		  <RankTable>
+			<S>150000</S>
+			<A>100000</A>
+			<B>75000</B>
+			<C>50000</C>
+			<D>25000</D>
+			<E>0</E>
+		  </RankTable>
+		  <BaseTime>500</BaseTime>
+		  <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+		  <!--<CheckPointNum>3</CheckPointNum>-->
+		  <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+		  <!--
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <EnableScore>Enemy</EnableScore>
+		  <EnableScore>Trick</EnableScore>
+		  <EnableScore>Combo</EnableScore>
+		  <EnableScore>Crush</EnableScore>
+		  -->
+		  <!-- ここまでがスコア情報 -->
+		</Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_VHD">
+		  <OverWriteSetData>
+			<Name>Medal</Name>
+			<FileName>dummy.set.xml</FileName>
+		  </OverWriteSetData>
+		  <OverWriteSetData>
+			<Name>Media</Name>
+			<FileName>dummy.set.xml</FileName>
+		  </OverWriteSetData>
+		  <LoadingTextGroupID>Afr_D2_HRD_20</LoadingTextGroupID>
+		  <!-- ここからはスコア情報 -->
+		  <RankTable>
+			<S>150000</S>
+			<A>100000</A>
+			<B>75000</B>
+			<C>50000</C>
+			<D>25000</D>
+			<E>0</E>
+		  </RankTable>
+		  <BaseTime>500</BaseTime>
+		  <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+		  <!--<CheckPointNum>3</CheckPointNum>-->
+		  <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+		  <!--
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <EnableScore>Enemy</EnableScore>
+		  <EnableScore>Trick</EnableScore>
+		  <EnableScore>Combo</EnableScore>
+		  <EnableScore>Crush</EnableScore>
+		  -->
+		  <!-- ここまでがスコア情報 -->
+		</Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_Default">
+		  <LoadingResourceID>AD</LoadingResourceID>
+		  <!-- ここからはスコア情報 -->
+		  <RankTable>
+			<S>100000</S>
+			<A>90000</A>
+			<B>75000</B>
+			<C>50000</C>
+			<D>25000</D>
+			<E>0</E>
+		  </RankTable>
+		  <BaseTime>75</BaseTime>
+		  <TimeBonusEfficient>5500</TimeBonusEfficient>
+		  <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+		  <CheckPointNum>2</CheckPointNum>
+		  <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+		  
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <!--<EnableScore>Enemy</EnableScore>-->
+		  <!--<EnableScore>Trick</EnableScore>-->
+		  <!--<EnableScore>Combo</EnableScore>-->
+		  <!--<EnableScore>Crush</EnableScore>-->
+		  -->
+		  <!-- ここまでがスコア情報 -->
+      <!-- ミッション時のタイマータイプ -->
+      <MissionTimerType>Decriment</MissionTimerType>
+      <MissionTimerValue>75</MissionTimerValue>
+      <!-- 終了条件 -->
+      <FinishMission>
+        <MissionLogic>OR</MissionLogic>
+        <MissionCondition>
+          <MissionConditionType>TimerUpper</MissionConditionType>
+          <MissionConditionCount>75</MissionConditionCount>
+        </MissionCondition>
+      </FinishMission>
+      <!--成功条件 -->
+      <SuccessMission>
+        <MissionLogic>OR</MissionLogic>
+        <MissionCondition>
+          <MissionConditionType>TimerLower</MissionConditionType>
+          <MissionConditionCount>75</MissionConditionCount>
+        </MissionCondition>
+      </SuccessMission>
+		 
+        </Case>
+      </Switch>
+    </param>
+  </SequenceUnit>
+  <SequenceUnit>
+    <type>SetPresence</type>
+    <param>
+      <Area>AfricaDay</Area>
+      <State>Act2</State>
+    </param>
+  </SequenceUnit>
+</MicroSequence>

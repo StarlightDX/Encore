@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroSequence>
+<Switch>
+    <Case flag="iFlag_TrialMissionStage" operation="E" value="0">
+		<SequenceUnit>
+			<type>SetFlag</type>
+			<param>
+			  <FlagName>bFlag_isMarza</FlagName>
+			  <FlagValue>true</FlagValue>
+			</param>
+		  </SequenceUnit>
+    </Case>
+	<Case flag="iFlag_TrialMissionStage" operation="E" value="1">
+		<SequenceUnit>
+			<type>SetFlag</type>
+			<param>
+			  <FlagName>bFlag_isShadow</FlagName>
+			  <FlagValue>true</FlagValue>
+			</param>
+		  </SequenceUnit>
+    </Case>
+	<Case flag="iFlag_TrialMissionStage" operation="E" value="2">
+		<SequenceUnit>
+			<type>SetFlag</type>
+			<param>
+			  <FlagName>bFlag_isBlaze</FlagName>
+			  <FlagValue>true</FlagValue>
+			</param>
+		  </SequenceUnit>
+    </Case>
+	<Case flag="iFlag_TrialMissionStage" operation="E" value="3">
+		<SequenceUnit>
+			<type>SetFlag</type>
+			<param>
+			  <FlagName>bFlag_isUnwiished</FlagName>
+			  <FlagValue>true</FlagValue>
+			</param>
+		  </SequenceUnit>
+    </Case>
+</Switch>
+</MicroSequence>

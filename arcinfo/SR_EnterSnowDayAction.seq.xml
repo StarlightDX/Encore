@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroSequence>
+  <SequenceUnit>
+    <type>SetFlag</type>
+    <param>
+      <FlagName>iFlag_LoadingDisplayType</FlagName>
+      <FlagValue>3</FlagValue>
+    </param>
+  </SequenceUnit>
+  <SequenceUnit>
+    <type>ChangeStage</type>
+    <param>
+      <StageType>Action</StageType>
+      <CountryName>Snow</CountryName>
+    <Switch>
+	  <Case flag="bFlag_isMarza" operation="E" value="true">
+		<ArchiveName>Marza_Snow</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_Snow</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="bFlag_isShadow" operation="E" value="true">
+		<ArchiveName>Shadow_Snow</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_Snow</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="bFlag_isBlaze" operation="E" value="true">
+		<ArchiveName>Blaze_Snow</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_Snow</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="bFlag_isUnwiished" operation="E" value="true">
+		<ArchiveName>Unwiished_Snow</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_Snow</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Default>
+		<ArchiveName>ActD_Snow</ArchiveName>
+	  </Default>
+	</Switch>
+      <SettingName>Stage</SettingName>
+      <IsEvil>false</IsEvil>
+      <AppendArchive>SonicActionCommon_Snow</AppendArchive>
+      <Switch>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_TIM">
+          <OverWriteSetData>
+            <Name>Medal</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <OverWriteSetData>
+            <Name>Media</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <!-- ここからはスコア情報 -->
+          <RankTable>
+            <S>150000</S>
+            <A>100000</A>
+            <B>75000</B>
+            <C>50000</C>
+            <D>25000</D>
+            <E>0</E>
+          </RankTable>
+          <BaseTime>500</BaseTime>
+          <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+          <!--<CheckPointNum>3</CheckPointNum>-->
+          <EnableScore>Time</EnableScore>
+          <!-- ここまでがスコア情報 -->
+          <MissionTimerType>Decriment</MissionTimerType>
+          <Switch>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="1">
+              <MissionTimerValue>420</MissionTimerValue>
+              <LoadingTextGroupID>Snw_D1_TIM_10</LoadingTextGroupID>
+            </Case>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="2">
+              <MissionTimerValue>300</MissionTimerValue>
+              <LoadingTextGroupID>Snw_D1_TIM_20</LoadingTextGroupID>
+            </Case>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="3">
+              <MissionTimerValue>210</MissionTimerValue>
+              <LoadingTextGroupID>Snw_D1_TIM_30</LoadingTextGroupID>
+            </Case>
+          </Switch>
+          <FinishMission>
+            <!-- 時間切れかゴールで終了 -->
+            <MissionLogic>OR</MissionLogic>
+            <MissionCondition>
+              <MissionConditionType>TimerUpper</MissionConditionType>
+              <Switch>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="1">
+                  <MissionConditionCount>420</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="2">
+                  <MissionConditionCount>300</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="3">
+                  <MissionConditionCount>210</MissionConditionCount>
+                </Case>
+              </Switch>
+            </MissionCondition>
+          </FinishMission>
+          <SuccessMission>
+            <!-- 時間内で成功 -->
+            <MissionLogic>OR</MissionLogic>
+            <MissionCondition>
+              <MissionConditionType>TimerLower</MissionConditionType>
+              <Switch>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="1">
+                  <MissionConditionCount>420</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="2">
+                  <MissionConditionCount>300</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="3">
+                  <MissionConditionCount>210</MissionConditionCount>
+                </Case>
+              </Switch>
+            </MissionCondition>
+          </SuccessMission>
+        </Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_SCR">
+          <OverWriteSetData>
+            <Name>Medal</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <OverWriteSetData>
+            <Name>Media</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <!-- ここからはスコア情報 -->
+          <RankTable>
+            <S>150000</S>
+            <A>100000</A>
+            <B>75000</B>
+            <C>50000</C>
+            <D>25000</D>
+            <E>0</E>
+          </RankTable>
+          <BaseTime>500</BaseTime>
+          <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+          <!--<CheckPointNum>3</CheckPointNum>-->
+          <!-- ここまでがスコア情報 -->
+          <Switch>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="1">
+              <LoadingTextGroupID>Snw_D1_SCR_10</LoadingTextGroupID>
+            </Case>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="2">
+              <LoadingTextGroupID>Snw_D1_SCR_20</LoadingTextGroupID>
+            </Case>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="3">
+              <LoadingTextGroupID>Snw_D1_SCR_30</LoadingTextGroupID>
+            </Case>
+          </Switch>
+          <MissionTimerType>Incriment</MissionTimerType>
+          <FinishMission>
+            <!-- タイマーカウント出すために終了条件をつける -->
+            <MissionLogic>OR</MissionLogic>
+            <MissionCondition>
+              <MissionConditionType>Special</MissionConditionType>
+            </MissionCondition>
+          </FinishMission>
+          <SuccessMission>
+            <MissionLogic>OR</MissionLogic>
+            <MissionCondition>
+              <MissionConditionType>Score</MissionConditionType>
+              <Switch>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="1">
+                  <MissionConditionCount>10</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="2">
+                  <MissionConditionCount>100</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="3">
+                  <MissionConditionCount>1000</MissionConditionCount>
+                </Case>
+              </Switch>
+            </MissionCondition>
+          </SuccessMission>
+        </Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_BTR">
+          <OverWriteSetData>
+            <Name>Medal</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <OverWriteSetData>
+            <Name>Media</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <!-- ここからはスコア情報 -->
+          <RankTable>
+            <S>150000</S>
+            <A>100000</A>
+            <B>75000</B>
+            <C>50000</C>
+            <D>25000</D>
+            <E>0</E>
+          </RankTable>
+          <BaseTime>500</BaseTime>
+          <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+          <!--<CheckPointNum>3</CheckPointNum>-->
+          <EnableScore>Time</EnableScore>
+          <EnableScore>Enemy</EnableScore>
+          <!-- ここまでがスコア情報 -->
+          <Switch>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="1">
+              <LoadingTextGroupID>Snw_D1_BTR_10</LoadingTextGroupID>
+            </Case>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="2">
+              <LoadingTextGroupID>Snw_D1_BTR_20</LoadingTextGroupID>
+            </Case>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="3">
+              <LoadingTextGroupID>Snw_D1_BTR_30</LoadingTextGroupID>
+            </Case>
+          </Switch>
+          <FinishMission>
+            <!-- タイマーカウント出すために終了条件をつける -->
+            <MissionLogic>OR</MissionLogic>
+            <MissionCondition>
+              <MissionConditionType>Special</MissionConditionType>
+            </MissionCondition>
+          </FinishMission>
+          <SuccessMission>
+            <MissionLogic>OR</MissionLogic>
+            <MissionCondition>
+              <MissionConditionType>KillEnemy</MissionConditionType>
+              <Switch>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="1">
+                  <MissionConditionCount>20</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="2">
+                  <MissionConditionCount>40</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="3">
+                  <MissionConditionCount>60</MissionConditionCount>
+                </Case>
+              </Switch>
+            </MissionCondition>
+          </SuccessMission>
+        </Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_RNG">
+          <OverWriteSetData>
+            <Name>Medal</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <OverWriteSetData>
+            <Name>Media</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <!-- ここからはスコア情報 -->
+          <RankTable>
+            <S>150000</S>
+            <A>100000</A>
+            <B>75000</B>
+            <C>50000</C>
+            <D>25000</D>
+            <E>0</E>
+          </RankTable>
+          <BaseTime>500</BaseTime>
+          <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+          <!--<CheckPointNum>3</CheckPointNum>-->
+          <EnableScore>Time</EnableScore>
+          <EnableScore>Ring</EnableScore>
+          <!-- ここまでがスコア情報 -->
+          <Switch>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="1">
+              <LoadingTextGroupID>Snw_D1_RNG_10</LoadingTextGroupID>
+            </Case>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="2">
+              <LoadingTextGroupID>Snw_D1_RNG_20</LoadingTextGroupID>
+            </Case>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="3">
+              <LoadingTextGroupID>Snw_D1_RNG_30</LoadingTextGroupID>
+            </Case>
+          </Switch>
+          <FinishMission>
+            <!-- タイマーカウント出すために終了条件をつける -->
+            <MissionLogic>OR</MissionLogic>
+            <MissionCondition>
+              <MissionConditionType>Special</MissionConditionType>
+            </MissionCondition>
+          </FinishMission>
+          <SuccessMission>
+            <MissionLogic>OR</MissionLogic>
+            <MissionCondition>
+              <MissionConditionType>CollectRing</MissionConditionType>
+              <Switch>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="1">
+                  <MissionConditionCount>100</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="2">
+                  <MissionConditionCount>300</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="3">
+                  <MissionConditionCount>500</MissionConditionCount>
+                </Case>
+              </Switch>
+            </MissionCondition>
+          </SuccessMission>
+        </Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_SVV">
+          <OverWriteSetData>
+            <Name>Medal</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <OverWriteSetData>
+            <Name>Media</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <!-- ここからはスコア情報 -->
+          <RankTable>
+            <S>150000</S>
+            <A>100000</A>
+            <B>75000</B>
+            <C>50000</C>
+            <D>25000</D>
+            <E>0</E>
+          </RankTable>
+          <BaseTime>500</BaseTime>
+          <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+          <!--<CheckPointNum>3</CheckPointNum>-->
+          <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+          <!--
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <EnableScore>Enemy</EnableScore>
+		  <EnableScore>Trick</EnableScore>
+		  <EnableScore>Combo</EnableScore>
+		  <EnableScore>Crush</EnableScore>
+		  -->
+          <!-- ここまでがスコア情報 -->
+          <MissionTimerType>Decriment</MissionTimerType>
+          <Switch>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="1">
+              <LoadingTextGroupID>Ptr_D1_SVV_10</LoadingTextGroupID>
+              <MissionTimerValue>900</MissionTimerValue>
+            </Case>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="2">
+              <LoadingTextGroupID>Ptr_D1_SVV_20</LoadingTextGroupID>
+              <MissionTimerValue>600</MissionTimerValue>
+            </Case>
+            <Case flag="iFlag_TrialMissionLevel" operation="E" value="3">
+              <LoadingTextGroupID>Ptr_D1_SVV_30</LoadingTextGroupID>
+              <MissionTimerValue>300</MissionTimerValue>
+            </Case>
+          </Switch>
+          <FinishMission>
+            <MissionLogic>OR</MissionLogic>
+            <MissionCondition>
+              <MissionConditionType>DamageCount</MissionConditionType>
+              <MissionConditionCount>1</MissionConditionCount>
+            </MissionCondition>
+            <MissionCondition>
+              <MissionConditionType>TimerUpper</MissionConditionType>
+              <Switch>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="1">
+                  <MissionConditionCount>900</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="2">
+                  <MissionConditionCount>600</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="3">
+                  <MissionConditionCount>300</MissionConditionCount>
+                </Case>
+              </Switch>
+            </MissionCondition>
+          </FinishMission>
+          <SuccessMission>
+            <MissionLogic>AND</MissionLogic>
+            <MissionCondition>
+              <MissionConditionType>DamageCount</MissionConditionType>
+              <MissionConditionCount>0</MissionConditionCount>
+            </MissionCondition>
+            <MissionCondition>
+              <MissionConditionType>TimerLower</MissionConditionType>
+              <Switch>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="1">
+                  <MissionConditionCount>900</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="2">
+                  <MissionConditionCount>600</MissionConditionCount>
+                </Case>
+                <Case flag="iFlag_TrialMissionLevel" operation="E" value="3">
+                  <MissionConditionCount>300</MissionConditionCount>
+                </Case>
+              </Switch>
+            </MissionCondition>
+          </SuccessMission>
+        </Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_HRD">
+          <OverWriteSetData>
+            <Name>Medal</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <OverWriteSetData>
+            <Name>Media</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <LoadingTextGroupID>Snw_D1_HRD_10</LoadingTextGroupID>
+          <!-- ここからはスコア情報 -->
+          <RankTable>
+            <S>150000</S>
+            <A>100000</A>
+            <B>75000</B>
+            <C>50000</C>
+            <D>25000</D>
+            <E>0</E>
+          </RankTable>
+          <BaseTime>500</BaseTime>
+          <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+          <!--<CheckPointNum>3</CheckPointNum>-->
+          <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+          <!--
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <EnableScore>Enemy</EnableScore>
+		  <EnableScore>Trick</EnableScore>
+		  <EnableScore>Combo</EnableScore>
+		  <EnableScore>Crush</EnableScore>
+		  -->
+          <!-- ここまでがスコア情報 -->
+        </Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_VHD">
+          <OverWriteSetData>
+            <Name>Medal</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <OverWriteSetData>
+            <Name>Media</Name>
+            <FileName>dummy.set.xml</FileName>
+          </OverWriteSetData>
+          <LoadingTextGroupID>Snw_D1_HRD_20</LoadingTextGroupID>
+          <!-- ここからはスコア情報 -->
+          <RankTable>
+            <S>150000</S>
+            <A>100000</A>
+            <B>75000</B>
+            <C>50000</C>
+            <D>25000</D>
+            <E>0</E>
+          </RankTable>
+          <BaseTime>500</BaseTime>
+          <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+          <!--<CheckPointNum>3</CheckPointNum>-->
+          <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+          <!--
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <EnableScore>Enemy</EnableScore>
+		  <EnableScore>Trick</EnableScore>
+		  <EnableScore>Combo</EnableScore>
+		  <EnableScore>Crush</EnableScore>
+		  -->
+          <!-- ここまでがスコア情報 -->
+        </Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_Default">
+          <LoadingResourceID>SD</LoadingResourceID>
+          <!-- ここからはスコア情報 -->
+          <RankTable>
+            <S>150000</S>
+            <A>135000</A>
+            <B>100000</B>
+            <C>50000</C>
+            <D>25000</D>
+            <E>0</E>
+          </RankTable>
+          <BaseTime>400</BaseTime>
+          <TimeBonusEfficient>400</TimeBonusEfficient>
+          <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+          <!--<CheckPointNum>3</CheckPointNum>-->
+          <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+          <!--
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <EnableScore>Enemy</EnableScore>
+		  <EnableScore>Trick</EnableScore>
+		  <EnableScore>Combo</EnableScore>
+		  <EnableScore>Crush</EnableScore>
+		  -->
+          <!-- ここまでがスコア情報 -->
+        </Case>
+      </Switch>
+    </param>
+  </SequenceUnit>
+  <SequenceUnit>
+    <type>SetPresence</type>
+    <param>
+      <Area>SnowDay</Area>
+      <State>Act1</State>
+    </param>
+  </SequenceUnit>
+</MicroSequence>

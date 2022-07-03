@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroSequence>
+  <SequenceUnit>
+    <type>SetFlag</type>
+    <param>
+	  <FlagName>iFlag_LoadingDisplayType</FlagName>
+	  <FlagValue>3</FlagValue>
+    </param>
+  </SequenceUnit>
+  <SequenceUnit>
+    <type>ChangeStage</type>
+    <param>
+      <StageType>Action</StageType>
+      <CountryName>EU</CountryName>
+    <Switch>
+	  <Case flag="bFlag_isMarza" operation="E" value="true">
+		<ArchiveName>Sub_Marza_EU1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="bFlag_isShadow" operation="E" value="true">
+		<ArchiveName>Sub_Shadow_EU1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="bFlag_isBlaze" operation="E" value="true">
+		<ArchiveName>Sub_Blaze_EU1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Case flag="bFlag_isUnwiished" operation="E" value="true">
+		<ArchiveName>Sub_Unwiished_EU1</ArchiveName>
+		<OverWriteTerrainInfo>
+			<DirName>ActD_SubEU_01</DirName>
+        </OverWriteTerrainInfo>
+	  </Case>
+	  <Default>
+		<ArchiveName>ActD_SubEU_01</ArchiveName>
+	  </Default>
+	</Switch>
+      <SettingName>Stage</SettingName>
+      <IsEvil>false</IsEvil>
+      <AppendArchive>SonicActionCommon_EU</AppendArchive>
+      <Switch>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_HRD">
+		  <OverWriteSetData>
+			<Name>Medal</Name>
+			<FileName>dummy.set.xml</FileName>
+		  </OverWriteSetData>
+		  <OverWriteSetData>
+			<Name>Media</Name>
+			<FileName>dummy.set.xml</FileName>
+		  </OverWriteSetData>
+		  <LoadingTextGroupID>Euc_D2_HRD_10</LoadingTextGroupID>
+		  <!-- ここからはスコア情報 -->
+		  <RankTable>
+			<S>90000</S>
+			<A>70000</A>
+			<B>50000</B>
+			<C>30000</C>
+			<D>10000</D>
+			<E>0</E>
+		  </RankTable>
+		  <BaseTime>500</BaseTime>
+		  <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+		  <CheckPointNum>3</CheckPointNum>
+		  <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+		  <!--
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <EnableScore>Enemy</EnableScore>
+		  <EnableScore>Trick</EnableScore>
+		  <EnableScore>Combo</EnableScore>
+		  <EnableScore>Crush</EnableScore>
+		  -->
+		  <!-- ここまでがスコア情報 -->
+		</Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_VHD">
+		  <OverWriteSetData>
+			<Name>Medal</Name>
+			<FileName>dummy.set.xml</FileName>
+		  </OverWriteSetData>
+		  <OverWriteSetData>
+			<Name>Media</Name>
+			<FileName>dummy.set.xml</FileName>
+		  </OverWriteSetData>
+		  <LoadingTextGroupID>Euc_D2_HRD_20</LoadingTextGroupID>
+		  <!-- ここからはスコア情報 -->
+		  <RankTable>
+			<S>150000</S>
+			<A>100000</A>
+			<B>75000</B>
+			<C>50000</C>
+			<D>25000</D>
+			<E>0</E>
+		  </RankTable>
+		  <BaseTime>500</BaseTime>
+		  <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+		  <!--<CheckPointNum>3</CheckPointNum>-->
+		  <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+		  <!--
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <EnableScore>Enemy</EnableScore>
+		  <EnableScore>Trick</EnableScore>
+		  <EnableScore>Combo</EnableScore>
+		  <EnableScore>Crush</EnableScore>
+		  -->
+		  <!-- ここまでがスコア情報 -->
+		</Case>
+        <Case flag="eFlag_TrialMissionType" operation="E" value="eFlag_TrialMissionType_Default">
+		  <LoadingResourceID>ED</LoadingResourceID>
+		  <!-- ここからはスコア情報 -->
+		  <RankTable>
+			<S>90000</S>
+			<A>70000</A>
+			<B>50000</B>
+			<C>30000</C>
+			<D>10000</D>
+			<E>0</E>
+		  </RankTable>
+		  <BaseTime>500</BaseTime>
+		  <!-- チェックポイント数が3より小さい場合のみ意味を成します -->
+		  <!--<CheckPointNum>3</CheckPointNum>-->
+		  <!-- 何も書かなければ全てが有効。書いたら書いたものだけが有効-->
+		  <!--
+		  <EnableScore>Time</EnableScore>
+		  <EnableScore>Ring</EnableScore>
+		  <EnableScore>Speed</EnableScore>
+		  <EnableScore>Enemy</EnableScore>
+		  <EnableScore>Trick</EnableScore>
+		  <EnableScore>Combo</EnableScore>
+		  <EnableScore>Crush</EnableScore>
+		  -->
+		  <!-- ここまでがスコア情報 -->
+        </Case>
+      </Switch>
+    </param>
+  </SequenceUnit>
+  <SequenceUnit>
+    <type>SetPresence</type>
+    <param>
+      <Area>EUDay</Area>
+      <State>Act2</State>
+    </param>
+  </SequenceUnit>
+</MicroSequence>
